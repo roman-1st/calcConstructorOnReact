@@ -1,0 +1,31 @@
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 240px;
+    height: 72px;
+    /* margin-top: 12px; */
+    padding: 2px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.total p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 232px;
+    height: 64px;
+    
+    background: #5D5FEF;
+    
+    border: 0;
+    border-radius: 6px;
+}

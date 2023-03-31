@@ -1,0 +1,40 @@
+.operand {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 240px;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 2px;
+
+    /* margin: auto; */
+    /* margin-top: 12px; */
+}
+
+.operand p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 52px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+    border-radius: 6px;
+}
+
+.operand p:hover {
+    outline: none;
+    background: #5d5fefa2;
+    transition: 0.1s;
+}
+
+.operand p:active {
+    outline: none;
+    background: #5d5fef;
+}

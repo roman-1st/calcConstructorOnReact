@@ -1,0 +1,56 @@
+.numbers {
+    width: 240px;
+    /* height: 324px; */
+
+    /* margin-top: 12px; */
+
+    display: grid;
+    grid-template-areas: 
+    "seven eight nine"
+    "four five six"
+    "one two three"
+    "zero zero comma";
+    grid-template-rows: repeat(4, 55px);
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.numbers p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 72px;
+    height: 48px;
+
+    margin: 0;
+    padding: 0;
+
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+    border-radius: 6px;
+    outline: none;
+}
+
+.numbers :nth-child(10) {
+    grid-area: zero;
+    width: 99%;
+}
+
+.numbers p:hover {
+    outline: none;
+    background: #5d5fefa2;
+    transition: 0.1s;
+}
+
+.numbers p:active {
+    outline: none;
+    background: #5d5fef;
+}
